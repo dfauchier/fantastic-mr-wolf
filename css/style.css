@@ -1,36 +1,37 @@
 
 
-@font-face {
-    font-family: 'PostGrotesk-Book';
-    src: url('../fonts/post-grotesk/PostGrotesk-Book.otf');
-}
-
+/* **************************** */
+/* ********** FONTS *********** */
+/* **************************** */
 
 @font-face {
-    font-family: 'SharpSans-Semibold';
-    src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
-}
-
-
-@font-face {
-    font-family: 'SharpSans-bold';
-    src: url('../fonts/sharp-sans/SharpSansNo1-bold.otf');
+	font-family: 'PostGrotesk-Book';
+	src: url('../fonts/post-grotesk/PostGrotesk-Book.otf');
 }
 
 @font-face {
-    font-family: 'SharpSans-medium';
-    src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
+	font-family: 'SharpSans-Semibold';
+	src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 }
 
 @font-face {
-    font-family: 'SharpSans-light';
-    src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
+	font-family: 'SharpSans-bold';
+	src: url('../fonts/sharp-sans/SharpSansNo1-bold.otf');
 }
 
+@font-face {
+	font-family: 'SharpSans-medium';
+	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
+}
 
+@font-face {
+	font-family: 'SharpSans-light';
+	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
+}
 
-
-
+/* **************************** */
+/* ********** MAIN ************ */
+/* **************************** */
 
 body {
 
@@ -41,7 +42,6 @@ body {
 	color: #000E30;
 	background-color: #fff; 
 	text-align: justify;
-
 }
 
 a {
@@ -51,19 +51,16 @@ a {
 
 a:hover {
 	text-decoration: none;
-		color: #000E30;
-
+	color: #000E30;
 }
-
-
 
 .clear {
- clear: both; 
-
+	clear: both; 
 }
 
-/*//////////////////// NAV-BAR ////////////////////*/
-
+/* **************************** */
+/* ********* NAV BAR ********** */
+/* **************************** */
 
 #navbar {
 	background-color: rgba(255,255,255,0.8); 	
@@ -76,8 +73,6 @@ a:hover {
 	max-width: 1400px;
 	margin: 0 auto;
 	border-color: rgba(255,255,255,0.5);
-
-
 }
 
 #nav-content {
@@ -87,13 +82,9 @@ a:hover {
 
 }
 
-
-
 #nav-logo-img {
 	height: 25px;
-
 }
-
 
 #nav-contact {
 	margin-top: -2px;
@@ -110,38 +101,29 @@ a:hover {
 	padding-right: 15px;
 	border-color: #000E30;
 	text-decoration: none;
-    font-family: 'PostGrotesk-Book', 'montserrat';
-    font-size: 12px;
+	font-family: 'PostGrotesk-Book', 'montserrat';
+	font-size: 12px;
 }
 
 #nav-content a:hover {
 	color: #000E30;
 	border-color: #000E30;
 	background-color: white;
-
 }
 
-
-
-
-
-
-/*//////////////////// COVER-PAGE ////////////////////*/
+/* **************************** */
+/* ******** COVER PAGE ******** */
+/* **************************** */
 
 #cover-page {
 	margin: 0 auto;
-		margin-top:100px;
+	margin-top:100px;
 
 	text-align: left;
 	height: 80vh;
 	overflow: hidden;
 	background-color: #fff;
-
-
 }
-
-
-
 
 #strapline-h1 {
 	padding-top: 33vh;
@@ -150,7 +132,6 @@ a:hover {
 	letter-spacing: 0.15em;
 	width: 80%;
 	margin-left: 10%;
-
 }
 
 #strapline-h2 {
@@ -161,33 +142,24 @@ a:hover {
 	color: #61728E;
 	width: 80%;
 	margin-left: 10%;
-
-
 }
 
-
-
-/*//////////////////// SECTION-services ////////////////////*/
-
+/* **************************** */
+/* ***** SECTION SERVICES ***** */
+/* **************************** */
 
 #section-services {
-		background-color: #fff;
-		overflow: hidden;
+	background-color: #fff;
+	overflow: hidden;
 
 }
-
-
 
 .body-section {
 	margin: 0 auto;
-
 }
-
 
 .service-item-container {
 	/*background-color: green;*/
-
-
 }
 
 .service-item {
@@ -197,63 +169,36 @@ a:hover {
 	/*background-color: red;*/
 	text-align: center;
 	box-shadow: 0px 0px 4px #666666;
-
 }
-
 
 #service-item-icon {
 	margin-top: 10px;
 	width: 80px;
 	/*background-color: green;*/
-
 }
-
-
 
 #service-item-text {
 	font-size: 100%;
 	/*margin-top: 0px;*/
 	/*background-color: red;*/
-
 }
-
-
-
 
 .service-item-description-container{
 	margin-top: 50px;
 	background-color: #fafafa;
 	color: #3A4E67;
-
 }
 
 .service-item-description{
-		/*background-color: yellow;*/
-		margin: 50px;		
-
-
-
-
-
-
-
-
-
+	/*background-color: yellow;*/
+	margin: 50px;		
 }
-
-
-
-
-
-
 
 .subsection-padding {
 	min-width: 100%;
 	height: 100px;
 	display: inline-block;
-
 }
-
 
 .body-titles {
 	font-family: 'SharpSans-bold',  'montserrat'; 
@@ -262,15 +207,12 @@ a:hover {
 	font-size: 150%;
 	text-align: left;
 	color: #000E30;
-
 }
 
 .body-text {
 	color: #61728E;
 	text-align: left;
 	margin-top: 20px;
-
-
 }
 
 .section-start-asset {
@@ -281,12 +223,9 @@ a:hover {
 	margin-bottom: 40px;
 }
 
-
-
-
-/*//////////////////// CONTACT ////////////////////*/
-
-
+/* **************************** */
+/* ********** CONTACT ********* */
+/* **************************** */
 
 .contact-button { 
 	color: #27273B;
@@ -297,65 +236,49 @@ a:hover {
 	box-shadow: 0px 1px 10px #666666;
 	padding: 25px 50px;
 	margin-top: 50px;
-
 } 
 
 .contact-button-container  {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	text-align: center;
-
 }
-
-
 
 .contact-button:hover, 
 .contact-button:focus, 
 .contact-button:active { 
-  color: #FFFFFF; 
-  background-color: #27273B; 
-  border: none ; 
-  text-decoration: none;
+	color: #FFFFFF; 
+	background-color: #27273B; 
+	border: none ; 
+	text-decoration: none;
 } 
 
-
-
-
-
-/*//////////////////// SECTION-CLIENTS ////////////////////*/
-
+/* **************************** */
+/* ****** SECTION CLIENTS ***** */
+/* **************************** */
 
 #section-clients {
 	width: 100%;
 	background-color: white;
-
-
 }
-
 
 .client-line-logo {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 100px;
 	padding-left: 0;
-
 }
-
 
 .client-line-logo img {
 	max-height: 70px;
 	max-width: 70px;
-
-
 }
-
 
 .client-line-description {
 	margin: 25px;
 	line-height: 1.8em;
 	text-align: left;
 	color: #B6C1D1;
-
 }
 
 .client-line-link {
@@ -363,24 +286,17 @@ a:hover {
 	color: #B6C1D1;
 }
 
-
-
-
-
-/*//////////////////// SECTION-CTA ////////////////////*/
-
+/* **************************** */
+/* ******** SECTION CTA ******* */
+/* **************************** */
 
 #cta {
-
 	height: 250px;
 	text-align: center;
 	background-color: white;
 	display: flex;
-  	justify-content: center;
-
+	justify-content: center;
 }
-
-
 
 #cta-button {
 	margin: 0 auto;
@@ -397,38 +313,28 @@ a:hover {
 	padding-right: 30px;
 	border-color: #000E30;
 	text-decoration: none;
-    font-size: 14px;
-    	align-self: center;
-
+	font-size: 14px;
+	align-self: center;
 }
-
-
 
 #cta a:hover {
 	color: white;
 	border-color: #000E30;
 	background-color: #000E30;
-
 }
 
-
-
-
-
-/*//////////////////// SECTION-FOOTER ////////////////////*/
-
+/* **************************** */
+/* ****** SECTION FOOTER ****** */
+/* **************************** */
 
 .footer {
 	height: 150px;
 	background-color: white;
 	text-align: center;
 	font-size: 14px;
-*/	display: flex;
-  	justify-content: center;
-
-
+	// display: flex;
+	justify-content: center;
 }
-
 
 .footer a {
 	text-decoration: none;
@@ -436,51 +342,38 @@ a:hover {
 	color: #61728E;
 	line-height: 40px;
 	overflow: visible;
-
 }
-
 
 #footer-content {
 	align-self: center;
 	color: #61728E;
-
 }
 
 #footer-content a:hover {
 	align-self: center;
 	color: #000E30;
-
 }
-
 
 #icon-heart {
-color: red;
-opacity: 0.6;
-display: inline;
-vertical-align: -1px;
+	color: red;
+	opacity: 0.6;
+	display: inline;
+	vertical-align: -1px;
 }
-
 
 #hiring-link:hover #icon-heart {
 	opacity: 1;
-
 }
 
-
-
-
-
-
-/*//////////////////// BOTTOM ////////////////////*/
+/* **************************** */
+/* ********** BOTTOM ********** */
+/* **************************** */
 
 .container {
 	margin-bottom: 150px;
 }
 
-
-
 #bottom {
-
 	position: fixed;
 	left: 0px;
 	right: 0px;
@@ -492,12 +385,10 @@ vertical-align: -1px;
 	opacity: 0.1;  
 }
 
-
 #bottom img {
 	height: 80px;
 	margin: 0 auto;
 	margin-top: 70px;
 	bottom: 0;
 	text-align: center;
-
 }
