@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>service-item-retention-icon-asset</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="16.5925926" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="17.2619048" y="16.5925926" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="17.2619048" y="16.5925926" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="32.5925926" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="17.2619048" y="0" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="34.5238095" y="0" width="15.4761905" height="15.4074074" rx="3"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4761905" height="15.4074074" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-item-retention-icon-asset" stroke="#2D3D54" stroke-width="4">
+            <g id="retention" transform="translate(25.000000, 26.000000)">
+                <use id="Rectangle-2" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                <use id="Rectangle-2" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                <use id="Rectangle-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                <use id="Rectangle-2" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                <use id="Rectangle-2" mask="url(#mask-10)" xlink:href="#path-9"></use>
+                <use id="Rectangle-2" mask="url(#mask-12)" xlink:href="#path-11"></use>
+                <use id="Rectangle-2" mask="url(#mask-14)" xlink:href="#path-13"></use>
+            </g>
+        </g>
+    </g>
+</svg>
