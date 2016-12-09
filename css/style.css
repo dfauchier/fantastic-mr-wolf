@@ -262,7 +262,7 @@ a:hover {
   cursor: pointer;
 }
 
-.service-item:hover {
+.service-item:hover, .service-item.service-item-selected {
 	background-color: white;
 }
 
@@ -283,14 +283,18 @@ a:hover {
 }
 
 .service-item-description-container{
+}
+
+.service-item-description{
 	margin-top: 50px;
+	padding: 50px;		
+	display: none;
 	background-color: #FFFFFF;
 	color: #3A4E67;
 }
 
-.service-item-description{
-	// background-color: yellow;
-	margin: 50px;		
+.service-item-description.service-item-selected {
+	display: block;
 }
 
 .subsection-padding {
