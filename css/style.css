@@ -40,7 +40,7 @@ body {
 	line-height: 200%;
 	letter-spacing: 0.05em;
 	color: #000E30;
-	background-color: #fff; 
+	background-color: #fafafa; 
 	text-align: justify;
 }
 
@@ -58,6 +58,10 @@ a:hover {
 	clear: both; 
 }
 
+.body-section {
+	background-color: #fafafa;
+}
+
 /* **************************** */
 /* ********* NAV BAR ********** */
 /* **************************** */
@@ -65,11 +69,8 @@ a:hover {
 .navbar .container-fluid {
 	padding-top: 32px;
 	height: 100px;
-	background-color: rgba(255,255,255,0.85); 
-}
-
-.collapse.navbar-collapse.in{
-	background-color: rgba(255,255,255,0.85); 	
+	background-color: #fafafa;
+	opacity: 0.85; 
 }
 
 .navbar .navbar-nav {
@@ -183,7 +184,6 @@ a:hover {
 	text-align: left;
 	height: calc(100vh - 100px - 50px);
 	overflow: hidden;
-	background-color: #fff;
 
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
@@ -225,21 +225,7 @@ a:hover {
 /* **************************** */
 
 #section-services {
-	background-color: #fff;
 	overflow: hidden;
-
-}
-
-.body-section {
-	margin: 0 auto;
-}
-
-.service-items {
-
-}
-
-.service-item-container {
-	/*background-color: green;*/
 }
 
 .service-item {
@@ -250,7 +236,10 @@ a:hover {
 	text-align: center;
 	box-shadow: 0px 0px 4px #666666;
 	cursor: pointer;
+}
 
+.service-item:hover {
+	background-color: white;
 }
 
 #service-item-icon {
@@ -267,7 +256,7 @@ a:hover {
 
 .service-item-description-container{
 	margin-top: 50px;
-	background-color: #fafafa;
+	background-color: #FFFFFF;
 	color: #3A4E67;
 }
 
