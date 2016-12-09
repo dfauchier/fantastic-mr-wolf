@@ -226,6 +226,19 @@ a:hover {
 
 #section-services {
 	overflow: hidden;
+<<<<<<< Updated upstream
+=======
+
+}
+
+.body-section {
+	margin: 0 auto;
+}
+
+
+.service-item-container {
+	/*background-color: green;*/
+>>>>>>> Stashed changes
 }
 
 .service-items-container {
@@ -354,7 +367,6 @@ a:hover {
 #people-item {
 	margin: 50px;
 	text-align: center;
-	background-color: white;
 	color: #000E30;
 	line-height: 18px;
 	border-style: solid;
@@ -367,10 +379,34 @@ a:hover {
 	border-color: #000E30;
 	text-decoration: none;
 	font-size: 14px;
-	align-self: center;
 }
 
 
+.center-container {
+	/*background-color: green;*/
+	margin-top: 50px;
+
+}
+
+.people-item-description-container {
+	background-color: #fafafa;
+	color: #3A4E67;
+	text-align: justify;
+
+}
+
+.people-item-description {
+	/*background-color: yellow;*/
+	margin: 50px;		
+}
+
+#people-item-description-linkedin  {
+	width: 35px;
+	margin: 0 auto;
+	padding-top: 20px;
+	fill: yellow;
+	/*background-color: green;*/
+}
 
 
 
@@ -412,7 +448,6 @@ a:hover {
 
 #section-clients {
 	width: 100%;
-	background-color: white;
 }
 
 .client-line-logo {
@@ -446,7 +481,6 @@ a:hover {
 #cta {
 	height: 250px;
 	text-align: center;
-	background-color: white;
 	display: flex;
 	justify-content: center;
 }
@@ -454,7 +488,6 @@ a:hover {
 #cta-button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: white;
 	color: #000E30;
 	line-height: 18px;
 	border-style: solid;
@@ -482,7 +515,6 @@ a:hover {
 
 .footer {
 	height: 150px;
-	background-color: white;
 	text-align: center;
 	font-size: 14px;
 	// display: flex;
