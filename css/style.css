@@ -220,9 +220,17 @@ a:hover {
 	margin-left: 10%;
 }
 
+
+
+
+
 /* **************************** */
 /* ***** SECTION SERVICES ***** */
 /* **************************** */
+
+
+
+
 
 #section-services {
 	overflow: hidden;
@@ -413,6 +421,30 @@ a:hover {
 
 
 
+/* **************************** */
+/* ****** SECTION CLIENTS ***** */
+/* **************************** */
+
+
+
+#section-clients {
+	width: 100%;
+}
+
+
+
+#client-icon {
+	margin: 0 auto;
+	width: 80px;
+	background-color: green;
+	align-self: center;
+}
+
+
+
+
+
+
 
 /* **************************** */
 /* ********** CONTACT ********* */
@@ -444,37 +476,12 @@ a:hover {
 	text-decoration: none;
 } 
 
-/* **************************** */
-/* ****** SECTION CLIENTS ***** */
-/* **************************** */
 
-#section-clients {
-	width: 100%;
-}
 
-.client-line-logo {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 100px;
-	padding-left: 0;
-}
 
-.client-line-logo img {
-	max-height: 70px;
-	max-width: 70px;
-}
 
-.client-line-description {
-	margin: 25px;
-	line-height: 1.8em;
-	text-align: left;
-	color: #B6C1D1;
-}
 
-.client-line-link {
-	text-align: right !important;
-	color: #B6C1D1;
-}
+
 
 /* **************************** */
 /* ******** SECTION CTA ******* */
