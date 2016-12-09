@@ -348,9 +348,8 @@ a:hover {
 #people-item-container {
 	margin-top: 50px;
 	text-align: center;
-	background-color: orange;
-	/*display: flex;*/
-	/*justify-content: center;*/
+	/*background-color: orange;*/
+
 }
 
 #people-item-container a:hover {
@@ -364,7 +363,7 @@ a:hover {
 }
 
 #people-item {
-	margin: 50px;
+	/*margin: 10px;*/
 	text-align: center;
 	color: #000E30;
 	line-height: 18px;
@@ -380,32 +379,35 @@ a:hover {
 	font-size: 14px;
 }
 
+#people-item-plus {
+	margin: 50px;
+}
+
 
 .center-container {
-	background-color: green;
+	/*background-color: green;*/
 	margin-top: 50px;
 
 }
 
 .people-item-description-container {
-	/*background-color: #fafafa;*/
-	background-color: yellow;
+	background-color: #fff;
+	/*background-color: yellow;*/
 	color: #3A4E67;
 	text-align: justify;
 
 }
 
 .people-item-description {
-	background-color: red;
+	/*background-color: red;*/
 	margin: 50px;		
 }
 
 #people-item-description-linkedin  {
 	width: 35px;
 	margin: 0 auto;
-	padding-top: 20px;
-	fill: yellow;
-	/*background-color: green;*/
+	padding-top: 15px;
+
 }
 
 
