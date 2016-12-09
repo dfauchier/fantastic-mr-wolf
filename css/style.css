@@ -305,6 +305,56 @@ a:hover {
 	margin-bottom: 40px;
 }
 
+
+/* **************************** */
+/* ********** PEOPLE ********* */
+/* **************************** */
+
+
+#people-item-container {
+	margin-top: 50px;
+	height: 250px;
+	text-align: center;
+	background-color: white;
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+
+#people-item-container a:hover {
+	color: white;
+	border-color: #000E30;
+	background-color: #000E30;
+}
+
+#people-item-container p {
+	display: inline;
+}
+
+#people-item {
+	margin: 50px;
+	text-align: center;
+	background-color: white;
+	color: #000E30;
+	line-height: 18px;
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 2px;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-color: #000E30;
+	text-decoration: none;
+	font-size: 14px;
+	align-self: center;
+}
+
+
+
+
+
+
+
 /* **************************** */
 /* ********** CONTACT ********* */
 /* **************************** */
