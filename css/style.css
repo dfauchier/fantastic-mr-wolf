@@ -228,14 +228,38 @@ a:hover {
 	overflow: hidden;
 }
 
+.service-items-container {
+	text-align: justify;
+	max-width: 750px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 0px;
+}
+.service-items-container:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+.service-items-container:before {
+	content: '';
+	display: block;
+	margin-top: -1.25em;
+}
+
 .service-item {
-	width: 150px;
-	height: 150px;
-	border-radius: 3px;
-	/*background-color: red;*/
-	text-align: center;
-	box-shadow: 0px 0px 4px #666666;
-	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	margin-right: -.25em;
+  // padding: .75em 1.5em;
+  top: 1.25em;
+
+  width: 150px;
+  height: 150px;
+  max-width: 30%;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0px 0px 4px #666666;
+  cursor: pointer;
 }
 
 .service-item:hover {
@@ -245,13 +269,17 @@ a:hover {
 #service-item-icon {
 	margin-top: 10px;
 	width: 80px;
-	/*background-color: green;*/
+	// background-color: green;
 }
 
 #service-item-text {
 	font-size: 100%;
-	// margin-top: 0px;
-	// background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+	#service-item-text {
+		font-size: 85%;
+	}
 }
 
 .service-item-description-container{
