@@ -62,7 +62,7 @@
 
 
 			<nav class="navbar navbar-fixed-top"> 
-				<div class="container-fluid"> 
+				<div class="container-fluid universal-bgc-color"> 
 					<div class="navbar-header"> 
 						<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false"> 
 							<span class="sr-only">Toggle navigation</span> 
@@ -72,7 +72,7 @@
 						</button> 
 						<a href="#" class="navbar-brand"><img alt="logo-small" src="assets/mark.svg" id="nav-logo-img"></a> 
 					</div> 
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6"> 
+					<div class="collapse navbar-collapse universal-bgc-color" id="bs-example-navbar-collapse-6"> 
 						<ul class="nav navbar-nav navbar-right"> 
 							<li><a href="#">Services</a></li> 
 							<li><a href="#">Approach</a></li> 
@@ -105,7 +105,7 @@
 			<!-- ********************************** -->
 
 			<div class="col-md-12"> <!-- section 1 container -->
-				<div id="section-services">  <!-- section-services  -->
+				<div id="section-services" class="universal-bgc-color">  <!-- section-services  -->
 					<div class="body-section col-md-12">	
 						<div class="section-start-asset"> </div>
 						<p class="body-titles">
@@ -116,23 +116,23 @@
 							We believe that if you want to grow sustainably, you need to optimise three things: Conversion, Retention and Monetisation. That’s all we focus on at Mr Wolf. 
 						</p>
 
-						<ul class="service-items-container">
-							<li class="service-item service-item-selected">									
-								<img src="assets/service-item-conversion-icon-asset.svg" id="service-item-icon">
-								<p id="service-item-text">Conversion</p>
-							</li>
-							<li class="service-item">
+						<ul id="service-items-container" class="service-items-container">
+							<li class="service-item toggle-si" data-toggle="collapse" href="#service-item-retention" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-retention">
 								<img src="assets/service-item-retention-icon-asset.svg" id="service-item-icon">
 								<p id="service-item-text">Retention</p>
 							</li>
-							<li class="service-item">
+							<li class="service-item toggle-si" data-toggle="collapse" href="#service-item-conversion" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-conversion">
+								<img src="assets/service-item-conversion-icon-asset.svg" id="service-item-icon">
+								<p id="service-item-text">Conversion</p>
+							</li>
+							<li class="service-item toggle-si" data-toggle="collapse" href="#service-item-pricing" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-pricing">
 								<img src="assets/service-item-pricing-icon-asset.svg" id="service-item-icon">
 								<p id="service-item-text">Pricing</p>
 							</li>
 						</ul>
 
-						<div class="service-item-description-container col-md-12">
-							<div class="service-item-description service-item-retention service-item-selected">
+						<div id="service-item-description-container" class="service-item-description-container col-md-12">
+							<div id="service-item-retention" class="service-item-description collapse">
 								<p> 
 									<p style="font-family: 'SharpSans-bold'"> Why? </p> 
 									We believe retention is the first and most important pillar of sustainable growth. It’s the one that can’t be hacked: the only way to get someone to come back is to deliver real value. Figuring out how to do that should be the first thing you do.
@@ -142,7 +142,7 @@
 								</p>
 							</div>
 
-							<div class="service-item-description service-item-conversion">
+							<div id="service-item-conversion" class="service-item-description collapse">
 								<p> 
 									<p style="font-family: 'SharpSans-bold'"> Why? </p> 
 									Once you have something people want, it’s time to start acquiring them in a capital efficient way, and then converting them to active users. In numbers, that means optimising your cost of acquisition. This requires identifying who your most valuable groups of users are: the easiest to convert; the most sticky; the highest spending... And then optimising for them.
@@ -152,7 +152,7 @@
 								</p>
 							</div>
 
-							<div class="service-item-description service-item-pricing">
+							<div id="service-item-pricing" class="service-item-description collapse">
 								<p> 
 									<p style="font-family: 'SharpSans-bold'"> Why? </p> 
 									We believe you should treat pricing like a product: track performance, come up with hypotheses, test them, iterate, and optimise. Regardless of whether you’re optimising for acquisition or revenue, how to monetise your users should be at the core of your business. Allocate resources accordingly.
@@ -338,6 +338,14 @@
 		<!-- Js libraries  -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script>
+			$('.toggle-si').click(function() {
+				if ( !$(this).next().hasClass('in') ) {
+					$("#service-item-description-container").children('.collapse.in').collapse('hide');
+				}
+				// $(this).next().collapse('toggle');
+			});
+		</script>
 
 	</body>
 	</html>
