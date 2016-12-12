@@ -434,7 +434,7 @@ a:hover {
 	color: #000E30;
 	line-height: 18px;
 	border: 2px solid #000E30;
-	padding: 14px 0px;
+	padding: 14px 10px;
 	font-size: 14px;
 	border-radius: 3px;
 	cursor: pointer;
@@ -467,6 +467,11 @@ a:hover {
 	padding-top: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+	#people-item-container { padding: 0px }
+	.people-item:not(:last-child) { margin-right: 15px; }
+}
+
 /* **************************** */
 /* ****** SECTION CLIENTS ***** */
 /* **************************** */
@@ -476,10 +481,6 @@ a:hover {
 	-ms-text-justify: distribute-all-lines;
 	text-justify: distribute-all-lines;
 	margin: 50px 50px 0px 50px;
-}
-
-@media only screen and (max-width: 768px) {
-	.client-container { margin: 50px 20px 0px 20px; }
 }
 
 .client-item {
@@ -506,6 +507,11 @@ a:hover {
 	font-size: 0;
 	line-height: 0
 }
+
+@media only screen and (max-width: 768px) {
+	.client-container { margin: 50px 20px 0px 20px; }
+	.client-item { max-width: 40%; margin: 0px 10px 10px 0px; }
+} 
 
 /* **************************** */
 /* ********** CONTACT ********* */
@@ -603,6 +609,10 @@ a:hover {
 	text-align: center;
 	font-size: 14px;
 	justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.footer { font-size: 12px; }
 }
 
 .footer a {
