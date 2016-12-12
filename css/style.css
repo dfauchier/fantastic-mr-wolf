@@ -610,7 +610,11 @@ a:hover {
 	border: none;
 }
 
-#contact-form input:focus, #contact-form textarea:focus {
+#contact-form textarea {
+	line-height: 25px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus, #contact-form button:focus {
 	outline: 0;
 }
 
