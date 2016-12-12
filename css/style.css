@@ -57,12 +57,9 @@ a:hover {
 	clear: both; 
 }
 
-.body-section {
-	background-color: #fafafa;
-}
-
-.universal-bgc-color {
+.container {
 	background-color: #fafafa;	
+	margin-bottom: 150px;
 }
 
 /* **************************** */
@@ -241,7 +238,6 @@ a:hover {
 .body-section {
 	margin: 0 auto;
 }
-
 
 .service-item-container {
 	/*background-color: green;*/
@@ -426,12 +422,6 @@ a:hover {
 
 }
 
-#people-item-container a:hover {
-	color: white;
-	border-color: #000E30;
-	background-color: #000E30;
-}
-
 #people-item-container p {
 	display: inline;
 }
@@ -446,6 +436,14 @@ a:hover {
 	padding: 14px 30px 13px 30px;
 	font-size: 14px;
 	border-radius: 3px;
+	cursor: pointer;
+}
+
+.people-item:hover {
+	color: white;
+	border-color: #000E30;
+	background-color: #000E30;
+	cursor: pointer;
 }
 
 .people-item-plus {
@@ -464,11 +462,7 @@ a:hover {
 	width: 35px;
 	margin: 0 auto;
 	padding-top: 15px;
-
 }
-
-
-
 
 /* **************************** */
 /* ****** SECTION CLIENTS ***** */
@@ -656,9 +650,7 @@ Can remove this
 	height: 100px;
 	text-align: center;
 	font-size: 14px;
-	// display: flex;
 	justify-content: center;
-	margin-bottom: 150px;
 }
 
 .footer a {
