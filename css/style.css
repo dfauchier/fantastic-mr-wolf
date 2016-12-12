@@ -357,13 +357,52 @@ a:hover {
 
 
 
-.section-approach-underline-style {
+.approach-table-content-column {
+	width: 40%;
+	display: inline-block;
+	/*background-color: green;*/
+	vertical-align: middle;
+
+
+}
+
+
+
+.approach-table-title {
+
+
+}
+
+
+.approach-table-underline {
 	width: 100px;
 	height: 2px;
 	background-color: #000E30;
 
 }
 
+
+.approach-table-description {
+	
+
+}
+
+
+.approach-table-arrow-column {
+	width: 19%;
+	text-align: center;
+	display: inline-block;
+	/*background-color: orange;*/
+	vertical-align: middle;
+
+
+}
+
+
+.approach-table-arrow {
+
+
+}
 
 
 
