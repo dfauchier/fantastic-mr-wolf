@@ -561,34 +561,57 @@ Can remove this
 /* **************************** */
 
 #cta {
-	height: 250px;
+	min-height: 250px;
 	text-align: center;
-	display: flex;
 	justify-content: center;
 }
 
+.cta-container {
+	margin-top: 80px
+}
+
 #cta-button {
+	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
 	color: #000E30;
 	line-height: 18px;
-	border-style: solid;
-	border-radius: 2px;
-	border-width: 2px;
-	padding-top: 22px;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-color: #000E30;
-	text-decoration: none;
+	border: 2px solid #000E30;
+	border-radius: 3px;
+	padding: 22px 30px 20px 30px;
 	font-size: 14px;
 	align-self: center;
+	cursor: pointer;
 }
 
-#cta a:hover {
+#cta-button:hover {
 	color: white;
 	border-color: #000E30;
 	background-color: #000E30;
+	cursor: pointer;
+}
+
+.contact-form {
+	padding: 50px;
+	background-color: white;
+	text-align: left;
+	margin: 50px 0px;
+}
+
+#contact-form .formlabel {
+	width: 100%;
+}
+
+#contact-form .formrow {
+	margin-bottom: 20px;
+}
+
+#contact-form input {
+	width: 100%;
+}
+
+#contact-form textarea {
+	width: 100%;
 }
 
 /* **************************** */
@@ -596,11 +619,12 @@ Can remove this
 /* **************************** */
 
 .footer {
-	height: 150px;
+	height: 100px;
 	text-align: center;
 	font-size: 14px;
 	// display: flex;
 	justify-content: center;
+	margin-bottom: 150px;
 }
 
 .footer a {
@@ -635,10 +659,6 @@ Can remove this
 /* **************************** */
 /* ********** BOTTOM ********** */
 /* **************************** */
-
-.container {
-	margin-bottom: 150px;
-}
 
 #bottom {
 	position: fixed;
