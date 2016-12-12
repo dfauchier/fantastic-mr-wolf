@@ -35,7 +35,7 @@
 
 body {
 
-	font-family: 'PostGrotesk-Book', 'montserrat';            /*'Montserrat', sans-serif; */
+	font-family: 'PostGrotesk-Book', 'montserrat';    
 	font-size: 18px;
 	line-height: 200%;
 	letter-spacing: 0.05em;
@@ -356,34 +356,46 @@ a:hover {
 /* **************************** */
 
 
-
-.approach-table-content-column {
-	width: 40%;
-	display: inline-block;
-	/*background-color: green;*/
-	vertical-align: middle;
-
+#approach-table-container {
+	width: 80%;
+	margin-left: 10%;
+	/*display: inline;*/
+	/*background-color: blue;*/
+	/*vertical-align: middle;*/
 
 }
 
 
+.approach-table-content-column {
+	width: 38%;
+	display: inline-block;
+	/*background-color: green;*/
+	vertical-align: middle;
+
+}
+
 
 .approach-table-title {
-
+	font-family: 'SharpSans-semibold', 'montserrat';
+	font-size: 18px;  
 
 }
 
 
 .approach-table-underline {
-	width: 100px;
+	width: 50px;
 	height: 2px;
 	background-color: #000E30;
+	margin-bottom: 25px;
 
 }
 
 
 .approach-table-description {
-	
+	font-family: 'PostGrotesk-Book', 'montserrat';  
+	font-size: 14px;  
+	color: #61728E;
+
 
 }
 
