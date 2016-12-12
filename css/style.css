@@ -422,8 +422,6 @@ a:hover {
 	margin-top: 50px;
 	text-align: center;
 	height: auto;
-	/*background-color: orange;*/
-
 }
 
 #people-item-container p {
@@ -431,16 +429,17 @@ a:hover {
 }
 
 .people-item {
-	/*margin: 10px;*/
 	display: inline-block;
 	text-align: center;
 	color: #000E30;
 	line-height: 18px;
 	border: 2px solid #000E30;
-	padding: 14px 30px 13px 30px;
+	padding: 14px 0px;
 	font-size: 14px;
 	border-radius: 3px;
 	cursor: pointer;
+	width: 45%;
+	max-width: 180px;
 }
 
 .people-item:hover {
@@ -472,94 +471,43 @@ a:hover {
 /* ****** SECTION CLIENTS ***** */
 /* **************************** */
 
-
-
-/*#section-clients {
-	width: 100%;
-}*/
-
-
-
-
-
-
-
-
-/*/////////////////////////////////////////////////
-Rationalise the below (since not clickable, no need for :before and :after: )
-	/////////////////////////////////////////////////*/
-
-
-.client-items-container {
-	max-width: 750px;
-	margin: 0 auto;
-	margin-top: 50px;
-	padding: 0px;
-		content: '';
-	display: inline-block;
-	width: 100%;
-	/*background-color: orange;*/
-
+.client-container {
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+	margin: 50px 50px 0px 50px;
 }
 
-.client-items-container:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
+@media only screen and (max-width: 768px) {
+	.client-container { margin: 50px 20px 0px 20px; }
 }
-.client-items-container:before {
-	content: '';
-	display: block;
-}
-
-
 
 .client-item {
 	position: relative;
 	display: inline-block;
-	/*margin-right: -.25em;
-	padding: .75em 1.5em;
-	top: 1.25em;*/
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	max-width: 30%;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow: 0px 0px 4px #666666;
-	/*cursor: pointer;*/
-	/*background-color: blue;*/
-
+	margin: 0px 20px 20px 0px;
 }
-
-
-/*/////////////////////////////////////////////////
-Can remove this
-	/////////////////////////////////////////////////*/
-
-
-/*.client-item:hover, .client-item.client-item-selected {
-	background-color: white;
-}*/
-
-
-
-
 
 .client-item img {
-	/*position: absolute;*/
-	margin: 0 /*auto*/;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	/*background-color: green;*/
-	height: 90px;
-	width: 90px;
-
+	max-width: 60px;
+	width: 70%;
+	margin-top: 17px;
 }
 
+.stretch {
+	width: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0
+}
 
-
-
-/* **************************** 
+/* **************************** */
 /* ********** CONTACT ********* */
 /* **************************** */
 
