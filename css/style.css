@@ -34,14 +34,12 @@
 /* **************************** */
 
 body {
-
 	font-family: 'PostGrotesk-Book', 'montserrat';    
 	font-size: 18px;
 	line-height: 200%;
 	letter-spacing: 0.05em;
 	color: #000E30;
-	/*background-color: #fafafa; */
-	background-color: green;
+	background-color: #fafafa; 
 	text-align: justify;
 }
 
@@ -238,9 +236,6 @@ a:hover {
 
 #section-services {
 	overflow: hidden;
-<<<<<<< Updated upstream
-=======
-
 }
 
 .body-section {
@@ -250,7 +245,6 @@ a:hover {
 
 .service-item-container {
 	/*background-color: green;*/
->>>>>>> Stashed changes
 }
 
 .service-items-container {
@@ -444,6 +438,7 @@ a:hover {
 
 .people-item {
 	/*margin: 10px;*/
+	display: inline-block;
 	text-align: center;
 	color: #000E30;
 	line-height: 18px;
@@ -457,12 +452,8 @@ a:hover {
 	margin: 50px;
 }
 
-
-.people-item-description-container {
-	margin-top: 50px;
-}
-
 .people-item-description {
+	margin-top: 50px;
 	color: #3A4E67;
 	text-align: justify;
 	padding: 50px;		
@@ -601,24 +592,16 @@ Can remove this
 } 
 
 
-
-
-
-
-
-
 /* **************************** */
 /* ******** SECTION CTA ******* */
 /* **************************** */
 
 #cta {
-	min-height: 250px;
 	text-align: center;
 	justify-content: center;
 }
 
 .cta-container {
-	margin-top: 80px
 }
 
 #cta-button {
@@ -646,7 +629,7 @@ Can remove this
 	padding: 50px;
 	background-color: white;
 	text-align: left;
-	margin: 50px 0px;
+	margin-top: 50px
 }
 
 #contact-form .formlabel {
