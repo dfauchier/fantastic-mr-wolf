@@ -411,32 +411,34 @@ a:hover {
 
 
 
-#section-clients {
+/*#section-clients {
 	width: 100%;
-}
+}*/
 
 
 
-#client-icon {
-	margin: 0 auto;
-	width: 80px;
-	background-color: green;
-	align-self: center;
-}
 
 
-.client-item-container {
-	/*background-color: green;*/
->>>>>>> Stashed changes
-}
+
+
+
+/*/////////////////////////////////////////////////
+Rationalise the below (since not clickable, no need for :before and :after: )
+	/////////////////////////////////////////////////*/
+
 
 .client-items-container {
-	text-align: justify;
 	max-width: 750px;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 50px;
 	padding: 0px;
+		content: '';
+	display: inline-block;
+	width: 100%;
+	/*background-color: orange;*/
+
 }
+
 .client-items-container:after {
 	content: '';
 	display: inline-block;
@@ -445,37 +447,56 @@ a:hover {
 .client-items-container:before {
 	content: '';
 	display: block;
-	margin-top: -1.25em;
 }
+
+
 
 .client-item {
 	position: relative;
 	display: inline-block;
-	margin-right: -.25em;
-  // padding: .75em 1.5em;
-  top: 1.25em;
+	/*margin-right: -.25em;
+	padding: .75em 1.5em;
+	top: 1.25em;*/
+	width: 150px;
+	height: 150px;
+	max-width: 30%;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0px 0px 4px #666666;
+	/*cursor: pointer;*/
+	/*background-color: blue;*/
 
-  width: 150px;
-  height: 150px;
-  max-width: 30%;
-  border-radius: 3px;
-  text-align: center;
-  box-shadow: 0px 0px 4px #666666;
-  cursor: pointer;
 }
 
-.cient-item:hover, .client-item.client-item-selected {
+
+/*/////////////////////////////////////////////////
+Can remove this
+	/////////////////////////////////////////////////*/
+
+
+/*.client-item:hover, .client-item.client-item-selected {
 	background-color: white;
+}*/
+
+
+
+
+
+.client-item img {
+	/*position: absolute;*/
+	margin: 0 /*auto*/;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*background-color: green;*/
+	height: 90px;
+	width: 90px;
+
 }
 
 
 
 
-
-
-
-
-/* **************************** */
+/* **************************** 
 /* ********** CONTACT ********* */
 /* **************************** */
 
