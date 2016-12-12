@@ -66,10 +66,14 @@ a:hover {
 /* ********* NAV BAR ********** */
 /* **************************** */
 
+.navbar, .navbar-collapse {
+	opacity: 0.85; 
+	background-color: #fafafa;
+}
+
 .navbar .container-fluid {
 	padding-top: 32px;
 	height: 100px;
-	opacity: 0.85; 
 }
 
 .navbar .navbar-nav {
