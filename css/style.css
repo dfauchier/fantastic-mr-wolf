@@ -531,11 +531,9 @@ a:hover {
 	}
 }
 
-
 #contact-form .formrow:not(:last-child) {
 	margin-bottom: 20px;
 }
-
 
 #contact-form input, #contact-form textarea {
 	width: 100%;
@@ -567,9 +565,11 @@ a:hover {
 #contact-form input:focus, #contact-form textarea:focus, #contact-form button:focus {
 	outline: 0;
 	background-color: yellow;
-
 }
 
+#contact-form .formlabel.focused-label {
+	background-color: yellow;
+}
 
 @media only screen and (max-width: 768px) {
 	.contact-form { padding: 30px 20px;}

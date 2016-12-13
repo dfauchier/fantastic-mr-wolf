@@ -386,6 +386,10 @@
 	</div>
 
 
+	<!-- ********************************** -->
+	<!-- *********** JAVA SCRIPT ********** -->
+	<!-- ********************************** -->
+
 	<!-- Js libraries  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
@@ -403,6 +407,7 @@
 			}
 		});
 	</script>
+
 	<!-- Smooth scrolling  -->
 	<script type="text/javascript">
 		$(function() {
@@ -420,16 +425,34 @@
 			});
 		});
 	</script>
+
 	<!-- Contact menu click  -->
 	<script type="text/javascript">
 		$(function() {
 			$("#nav-contact").click(function() { $("#contact-form").collapse('show'); });
 		});
 	</script>
+
 	<!-- Contact form, focus on name  -->
 	<script type="text/javascript">
 		$('#contact-form').on("shown.bs.collapse", function(){
 			$("#form-name").focus();
+		});
+	</script>
+
+	<!-- Contact form, focus labels  -->
+	<script>
+		$( "input" ).focusin(function() {
+			$( this ).parent().find(".formlabel" ).addClass("focused-label");
+		});
+		$( "input" ).focusout(function() {
+			$( this ).parent().find(".formlabel" ).removeClass("focused-label");
+		});
+		$( "textarea" ).focusin(function() {
+			$( this ).parent().find(".formlabel" ).addClass("focused-label");
+		});
+		$( "textarea" ).focusout(function() {
+			$( this ).parent().find(".formlabel" ).removeClass("focused-label");
 		});
 	</script>
 
