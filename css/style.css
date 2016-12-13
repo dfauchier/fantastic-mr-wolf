@@ -62,6 +62,10 @@ a:hover {
 	margin-bottom: 150px;
 }
 
+.col-md-12 {
+	float: none !important;
+}
+
 /* **************************** */
 /* ********* NAV BAR ********** */
 /* **************************** */
@@ -234,6 +238,7 @@ a:hover {
 
 .body-section {
 	margin: 0 auto;
+	overflow: auto;
 }
 
 .service-item-container {
@@ -242,29 +247,19 @@ a:hover {
 
 .service-items-container {
 	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+
 	max-width: 750px;
-	width: 95%;
+	width: 100%;
 	margin: auto;
 	margin-top: 50px;
-	padding: 0px;
 }
-.service-items-container:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
-}
-.service-items-container:before {
-	content: '';
-	display: block;
-	margin-top: -1.25em;
-}
+
 
 .service-item {
 	position: relative;
 	display: inline-block;
-	margin-right: -.25em;
-  // padding: .75em 1.5em;
-  top: 1.25em;
 
   width: 150px;
   height: 150px;
