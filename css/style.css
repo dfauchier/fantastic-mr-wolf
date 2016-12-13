@@ -503,6 +503,22 @@ a:hover {
 	text-decoration: none;
 } 
 
+
+
+
+#contact-form input {
+    background-color: blue;
+}
+
+#contact-form input:focus {
+    background-color: green;
+}
+
+
+
+
+
+
 /* **************************** */
 /* ******** SECTION CTA ******* */
 /* **************************** */
