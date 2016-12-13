@@ -89,7 +89,7 @@ a:hover {
 	letter-spacing: 2px;
 	color: #000E30;	
 	font-size: 85%;
-
+	padding-top: 14px;
 }
 
 @media only screen and (max-width: 768px) {
