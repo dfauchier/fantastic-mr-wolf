@@ -440,7 +440,7 @@ a:hover {
 } 
 
 /* **************************** */
-/* ********** CONTACT ********* */
+/* ********** CONTACT BUTTON ********* */
 /* **************************** */
 
 .contact-button { 
@@ -471,35 +471,13 @@ a:hover {
 
 
 
-.formlabel {
-	position: relative;
-	bottom: -25px;
-	padding-left: 20px;
-	font-size: 500px;
-	font-family: 'PostGrotesk-Bold';
-/*	color: #B6C1D1;*/ ??????????? ;
-	}
-
-
-#contact-form input {
-    /*background-color: #fcfcfc;*/
-    background-color: lightblue;
-    line-height: 80px;
-}
-
-#contact-form input:focus {
-    background-color: #eaf3fa;
-        background-color: lightgreen;
-
-}
-
 
 
 
 
 
 /* **************************** */
-/* ******** SECTION CTA ******* */
+/* ******** FORM  ******* */
 /* **************************** */
 
 #cta {
@@ -540,35 +518,56 @@ a:hover {
 
 #contact-form .formlabel {
 	width: 100%;
+	font-family: 'PostGrotesk-Bold';
 	text-transform: uppercase;
 	font-size: 10px;
-	color: #61728E;
-	opacity: 0.7;
-	line-height: 10px;
-	height: 10px;
+	line-height: 30px;
+	color: #B6C1D1;
+	position: relative;
+	padding-left: 20px;
+	background-color: lightblue;
+	padding: 0 auto;
+	margin: 0 auto;
+	}
 }
+
 
 #contact-form .formrow:not(:last-child) {
 	margin-bottom: 20px;
+}
+
+
+#contact-form input, #contact-form textarea {
+	width: 100%;
+	padding-left: 20px;
+	border: none;
+	background-color: lightblue;
+	line-height: 40px;
+	text-transform: capitalize;
+
 }
 
 #contact-form button {
 	text-transform: uppercase;
 	background-color: #000E30;
 	color: white;
-}
-
-#contact-form input, #contact-form textarea, #contact-form button {
 	width: 100%;
+	height: 60px;
+	line-height: 60px;
 	border: none;
+	background-color: red;
+
 }
 
-#contact-form textarea {
-	line-height: 25px;
+.formrow {
+/*	margin: 0px;
+	padding: 0px;*/
 }
 
 #contact-form input:focus, #contact-form textarea:focus, #contact-form button:focus {
 	outline: 0;
+	background-color: yellow;
+
 }
 
 
