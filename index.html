@@ -118,19 +118,9 @@
 					</div>
 
 					<div id="service-items-container" class="service-items-container col-md-12">
-						<div class="service-item toggle-si" data-toggle="collapse" href="#service-item-retention" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-retention">
-							<img src="assets/service-item-retention-icon-asset.svg" id="service-item-icon">
-							<p id="service-item-text">Retention</p>
-						</div>
-						<div class="service-item toggle-si" data-toggle="collapse" href="#service-item-conversion" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-conversion">
-							<img src="assets/service-item-conversion-icon-asset.svg" id="service-item-icon">
-							<p id="service-item-text">Conversion</p>
-						</div>
-						<div class="service-item toggle-si" data-toggle="collapse" href="#service-item-pricing" data-parent="#section-services" aria-expanded="false" aria-controls="service-item-pricing">
-							<img src="assets/service-item-pricing-icon-asset.svg" id="service-item-icon">
-							<p id="service-item-text">Pricing</p>
-						</div>
-						<div class="stretch"></div>
+						<div class="service-item-text toggle-si" data-toggle="collapse" href="#service-item-retention" aria-expanded="false" aria-controls="service-item-retention">Retention</div>
+						<div class="service-item-text toggle-si" data-toggle="collapse" href="#service-item-conversion" aria-expanded="false" aria-controls="service-item-conversion">Conversion</div>
+						<div class="service-item-text toggle-si" data-toggle="collapse" href="#service-item-pricing" aria-expanded="false" aria-controls="service-item-pricing">Pricing</div>
 					</div>
 
 					<div id="service-item-description-container" class="col-md-12">
@@ -258,9 +248,8 @@
 						</p>
 					</div>
 
-					<div id="people-item-container" class="col-md-12"> 
+					<div id="people-item-container" class="people-item-container col-md-12"> 
 						<div class="people-item toggle-pi" data-toggle="collapse" href="#df-description" aria-expanded="false" aria-controls="df-description">David Fauchier</div>
-						<p class="people-item-plus hidden-xs">+</p>
 						<div class="people-item toggle-pi" data-toggle="collapse" href="#dea-description" aria-expanded="false" aria-controls="dea-description">David El Achkar</div>
 					</div>
 
@@ -410,7 +399,7 @@
 	<script>
 		$('.toggle-pi').click(function() {
 			if ( !$(this).next().hasClass('in') ) {
-				$("#contact-form").collapse('show');
+				$("#people-item-description-container").children('.collapse.in').collapse('hide');
 			}
 		});
 	</script>
@@ -434,17 +423,10 @@
 	<!-- Contact menu click  -->
 	<script type="text/javascript">
 		$(function() {
-			$("#nav-contact").click(function() { $("#contact-form").collapse('show'); $("#form-name").focus(); });
+			$("#nav-contact").click(function() { $("#contact-form").collapse('show'); });
 		});
 	</script>
 	<!-- Contact form, focus on name  -->
-<!-- 	<script type="text/javascript">
-		$(function() {
-			$("#cta-button").click(function() {
-				$.when( $("#contact-form").hasClass("in") ).then(function() { $("#form-name").focus(); }); 
-			});
-		});
-	</script> -->
 	<script type="text/javascript">
 		$('#contact-form').on("shown.bs.collapse", function(){
 			$("#form-name").focus();
