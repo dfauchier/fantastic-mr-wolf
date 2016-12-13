@@ -334,29 +334,34 @@
 					<div id="contact-a" class="anchor-point" ></div>
 
 					<div class="cta-container">
-						<div id="cta-button" data-toggle="collapse" href="#contact-form" aria-expanded="false" aria-controls="contact-form">
+						<div id="cta-button" data-toggle="collapse" href="#contact-form-container" aria-expanded="false" aria-controls="contact-form">
 							See how we can help
 						</div>
 					</div>
 
-					<div id="contact-form" class="contact-form collapse">
-						<form action="https://script.google.com/macros/s/AKfycbxcQxGeC3Jh1-A3BilsA-UlP6xCrmcbIi-XivDSTx5VL_UkC9Fj/exec" method="POST" enctype="text/plain">
+					<div id="contact-form-container" class="contact-form-container collapse">
+						<form id="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbxcQxGeC3Jh1-A3BilsA-UlP6xCrmcbIi-XivDSTx5VL_UkC9Fj/exec">
 							<div class="formrow">
 								<div class="formlabel">Name</div>
-								<input id="form-name" type="text" name="form-name">
+								<input id="form-name" type="text" name="form-name" />
 							</div>
 							<div class="formrow">
 								<div class="formlabel">E-mail</div>
-								<input if="form-email" type="email" name="form-email" required>
+								<input id="form-email" type="text" name="form-email" required />
 							</div>
 							<div class="formrow">
 								<div class="formlabel">Message</div>
 								<textarea id="form-message" type="textarea" name="form-message" rows="4" required></textarea>
 							</div>
 							<div class="formrow">
-								<button type="submit" value="Submit">Submit</button>
+								<button>Submit</button>
 							</div>
 						</form>
+
+						<div style="display:none;" id="thankyou-message">
+							<p>Thanks for contacting us! We will get back to you soon!</p>
+						</div>
+
 					</div>	
 				</div> 
 			</div>
@@ -393,6 +398,9 @@
 	<!-- Js libraries  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/formhandler.js"></script>
+
+	<!-- Unique collapsing  -->
 	<script>
 		$('.toggle-si').click(function() {
 			if ( !$(this).next().hasClass('in') ) {
@@ -429,13 +437,13 @@
 	<!-- Contact menu click  -->
 	<script type="text/javascript">
 		$(function() {
-			$("#nav-contact").click(function() { $("#contact-form").collapse('show'); });
+			$("#nav-contact").click(function() { $("#contact-form-container").collapse('show'); });
 		});
 	</script>
 
 	<!-- Contact form, focus on name  -->
 	<script type="text/javascript">
-		$('#contact-form').on("shown.bs.collapse", function(){
+		$('#contact-form-container').on("shown.bs.collapse", function(){
 			$("#form-name").focus();
 		});
 	</script>

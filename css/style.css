@@ -238,13 +238,13 @@ a:hover {
 	position: relative;
 	display: inline-block;
 
-  width: 150px;
-  height: 150px;
-  max-width: 30%;
-  border-radius: 3px;
-  text-align: center;
-  box-shadow: 0px 0px 4px #666666;
-  cursor: pointer;
+	width: 150px;
+	height: 150px;
+	max-width: 30%;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0px 0px 4px #666666;
+	cursor: pointer;
 }
 
 #service-item-icon {
@@ -507,7 +507,7 @@ a:hover {
 	cursor: pointer;
 }
 
-.contact-form {
+.contact-form-container {
 	padding: 50px;
 	float: none;
 	background-color: white;
@@ -516,7 +516,7 @@ a:hover {
 	max-width: 700px;
 }
 
-#contact-form .formlabel {
+#contact-form-container .formlabel {
 	width: 100%;
 	font-family: 'PostGrotesk-Bold';
 	text-transform: uppercase;
@@ -528,14 +528,14 @@ a:hover {
 	background-color: lightblue;
 	padding: 0 auto;
 	margin: 0 auto;
-	}
+}
 }
 
-#contact-form .formrow:not(:last-child) {
+#contact-form-container .formrow:not(:last-child) {
 	margin-bottom: 20px;
 }
 
-#contact-form input, #contact-form textarea {
+#contact-form-container input, #contact-form-container textarea {
 	width: 100%;
 	padding-left: 20px;
 	border: none;
@@ -545,7 +545,7 @@ a:hover {
 
 }
 
-#contact-form button {
+#contact-form-container button {
 	text-transform: uppercase;
 	background-color: #000E30;
 	color: white;
@@ -557,22 +557,21 @@ a:hover {
 
 }
 
-.formrow {
-/*	margin: 0px;
-	padding: 0px;*/
+.formrow.email-error .formlabel, .formrow.email-error input {
+	background-color: red !important;
 }
 
-#contact-form input:focus, #contact-form textarea:focus, #contact-form button:focus {
+#contact-form-container input:focus, #contact-form-container textarea:focus, #contact-form-container button:focus {
 	outline: 0;
 	background-color: yellow;
 }
 
-#contact-form .formlabel.focused-label {
+#contact-form-container .formlabel.focused-label {
 	background-color: yellow;
 }
 
 @media only screen and (max-width: 768px) {
-	.contact-form { padding: 30px 20px;}
+	.contact-form-container { padding: 30px 20px;}
 }
 
 /* **************************** */
