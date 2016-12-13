@@ -10,6 +10,11 @@
 }
 
 @font-face {
+	font-family: 'PostGrotesk-Bold';
+	src: url('../fonts/post-grotesk/PostGrotesk-Bold.otf');
+}
+
+@font-face {
 	font-family: 'SharpSans-Semibold';
 	src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 }
@@ -28,6 +33,10 @@
 	font-family: 'SharpSans-light';
 	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
 }
+
+
+
+
 
 /* **************************** */
 /* ********** MAIN ************ */
@@ -462,13 +471,26 @@ a:hover {
 
 
 
+.formlabel {
+	position: relative;
+	bottom: -25px;
+	padding-left: 20px;
+	font-size: 500px;
+	font-family: 'PostGrotesk-Bold';
+/*	color: #B6C1D1;*/ ??????????? ;
+	}
+
 
 #contact-form input {
-    background-color: blue;
+    /*background-color: #fcfcfc;*/
+    background-color: lightblue;
+    line-height: 80px;
 }
 
 #contact-form input:focus {
-    background-color: green;
+    background-color: #eaf3fa;
+        background-color: lightgreen;
+
 }
 
 
