@@ -36,6 +36,86 @@
 
 
 
+/* **************************** */
+/* ******** TEXT STYLES******* */
+/* **************************** */
+
+/*Here's a mockup of website indicating the text styles: https://cl.ly/25012m3y140m*/
+
+
+
+.ts-menu-item {
+	/*Style is defined in .navbar .navbar-nav li a {*/
+}
+
+.ts-h1 {
+	font-size: 2.2em;
+	line-height: 125%;
+	font-family: 'SharpSans-semibold',  'montserrat';
+	letter-spacing: 0.15em;
+}
+
+.ts-h2 {
+	font-size: 1.5em;
+	line-height: 125%;
+	font-family: 'SharpSans-medium',  'montserrat';
+	letter-spacing: 0.15em;
+	color: #61728E;
+	
+}
+
+
+.ts-section-title {
+	font-family: 'SharpSans-bold',  'montserrat'; 
+	letter-spacing: 0.08em;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	color: #000E30;
+}
+
+
+.ts-body {
+	/*Style is defined in .body*/
+}
+
+
+.ts-item-title {
+	text-transform: uppercase;
+	cursor: pointer;
+	/*color: #61728E;*/
+	font-family: 'PostGrotesk-medium', 'montserrat';
+	font-size: 14px;
+	letter-spacing: 0.15em;
+	display: inline;
+}
+
+
+.ts-item-title[aria-expanded="true"] {
+	font-family: 'PostGrotesk-bold', 'montserrat';
+	color: #000E30;
+}
+
+
+.ts-item-description {
+	margin-top: 50px;
+	padding: 50px;		
+	background-color: #FFFFFF;
+	color: #3A4E67;
+}
+
+
+a {
+	text-decoration: none !important;
+	color: #559BD1;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000E30;
+}
+
+
 
 
 /* **************************** */
@@ -44,7 +124,7 @@
 
 body {
 	font-family: 'PostGrotesk-Book', 'montserrat';    
-	font-size: 18px;
+	font-size: 100%;
 	line-height: 200%;
 	letter-spacing: 0.05em;
 	color: #000E30;
@@ -52,15 +132,6 @@ body {
 	text-align: justify;
 }
 
-a {
-	color: #559BD1;
-	text-decoration: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #000E30;
-}
 
 .clear {
 	clear: both; 
@@ -74,6 +145,16 @@ a:hover {
 .col-md-12 {
 	float: none !important;
 }
+
+.section-start-asset {
+	height: 15px;
+	width: 60px;
+	display: block;
+	background-color: #FEE834;
+	margin-bottom: 40px;
+}
+
+
 
 /* **************************** */
 /* ********* NAV BAR ********** */
@@ -95,13 +176,14 @@ a:hover {
 }
 
 .navbar .navbar-nav li a {
-	text-transform: uppercase;
-	margin: 0px 30px;
+	margin: 0px 20px;
 	padding: 0px;
+	text-transform: uppercase;
+	/*line-height: 4em;*/
 	font-family: 'SharpSans-semibold', 'montserrat';
-	letter-spacing: 2px;
+	letter-spacing: 0.2em;
 	color: #000E30;	
-	font-size: 85%;
+	font-size: 1.2em;
 	padding-top: 14px;
 }
 
@@ -125,6 +207,15 @@ a:hover {
 #nav-logo-img {
 	height: 35px;
 }
+
+#nav-contact {
+	background-color: green;
+	border-radius: 2px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
 
 /*** Burger Menu ***/
 .navbar-toggle {
@@ -169,21 +260,12 @@ a:hover {
 
 
 #strapline-h1 {
-	font-size: 125%;
-	line-height: 125%;
-	font-family: 'SharpSans-semibold',  'montserrat';
-	letter-spacing: 0.15em;
 	width: 80%;
 	margin-left: 10%;
 }
 
 #strapline-h2 {
 	padding-top: 2vh;
-	font-size: 100%;
-	line-height: 125%;
-	font-family: 'SharpSans-medium',  'montserrat';
-	letter-spacing: 0.15em;
-	color: #61728E;
 	width: 80%;
 	margin-left: 10%;
 }
@@ -215,35 +297,21 @@ a:hover {
 	text-align: center;
 }
 
-.service-items-container .service-item-text {
-	text-transform: uppercase;
-	cursor: pointer;
-	color: #61728E;
-	font-family: 'PostGrotesk-medium', 'montserrat';
-	font-size: 14px;
-	display: inline;
-	letter-spacing: 0.15em;
-}
 
 
-
-.service-items-container .service-item-text:not(:last-child):after {
+.service-items-container .ts-item-title:not(:last-child):after {
 	content: " | ";
 	padding: 0px 20px;
-	font-family: 'PostGrotesk-Bold', 'montserrat';
-	color: #000E30;
-}
-
-.service-items-container .service-item-text[aria-expanded="true"] {
-	font-family: 'PostGrotesk-bold', 'montserrat';
-	color: #000E30;
 
 }
+
+/*.service-items-container [aria-expanded="true"] {
+
+}*/
 
 .service-item {
 	position: relative;
 	display: inline-block;
-
 	width: 150px;
 	height: 150px;
 	max-width: 30%;
@@ -253,18 +321,7 @@ a:hover {
 	cursor: pointer;
 }
 
-#service-item-icon {
-	margin-top: 10px;
-	width: 80px;
-	// background-color: green;
-}
 
-.service-item-description{
-	margin-top: 50px;
-	padding: 50px;		
-	background-color: #FFFFFF;
-	color: #3A4E67;
-}
 
 .subsection-padding {
 	min-width: 100%;
@@ -272,28 +329,9 @@ a:hover {
 	display: inline-block;
 }
 
-.body-titles {
-	font-family: 'SharpSans-bold',  'montserrat'; 
-	letter-spacing: 0.08em;
-	font-weight: bold;
-	font-size: 150%;
-	text-align: left;
-	color: #000E30;
-}
 
-.body-text {
-	color: #61728E;
-	text-align: left;
-	margin-top: 20px;
-}
 
-.section-start-asset {
-	height: 15px;
-	width: 60px;
-	display: block;
-	background-color: #FEE834;
-	margin-bottom: 40px;
-}
+
 
 @media only screen and (max-width: 768px) {
 	#service-item-description-container.col-md-12 { padding: 0;}
@@ -344,7 +382,6 @@ a:hover {
 	width: 19%;
 	text-align: center;
 	display: inline-block;
-	/*background-color: orange;*/
 	vertical-align: middle;
 }
 
@@ -365,27 +402,16 @@ a:hover {
 }
 
 .people-item-container .people-item {
-	text-transform: uppercase;
 	cursor: pointer;
-	color: #61728E;
-	font-family: 'PostGrotesk-medium', 'montserrat';
-	font-size: 14px;
-	display: inline;
-	letter-spacing: 0.15em;
+
 }
 
-.people-item-container .people-item:not(:last-child):after {
+.people-item-container .ts-item-title:not(:last-child):after {
 	content: " + ";
 	padding: 0px 20px;
-	font-family: 'PostGrotesk-bold', 'montserrat';
-	color: #000E30;
 
 }
 
-.people-item-container .people-item[aria-expanded="true"] {
-	font-family: 'PostGrotesk-bold', 'montserrat';
-		color: #000E30;
-}
 
 .people-item-description {
 	margin-top: 50px;
