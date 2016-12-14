@@ -364,9 +364,20 @@
 	/* ********** APPROACH ********* */
 	/* **************************** */
 
-	#approach-table-container {
+
+#approach-table-container-container {
 		max-width: 100%;
-		width: 800px;
+		margin: auto;
+		overflow: auto;
+	}
+
+
+	#approach-table-container {
+		width: 80%;
+		margin: 0 auto;
+		padding: 50px;
+		background-color: white;
+		max-width: 100%;
 		margin: auto;
 		overflow: auto;
 	}
