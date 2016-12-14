@@ -400,6 +400,15 @@ body {
 	vertical-align: middle;
 }
 
+
+#approach-learn-more, #approach-read-less {
+	cursor: pointer;
+}
+
+.approach-learn-more-container[aria-expanded="true"] {
+	display: none;
+}
+
 /* **************************** */
 /* ********** PEOPLE ********* */
 /* **************************** */
