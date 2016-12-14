@@ -227,26 +227,16 @@ a:hover {
 
 
 
-
-
-
-/* ADD  FONT AND SPACING */
-
-
-
-
-
-
 .service-items-container .service-item-text:not(:last-child):after {
 	content: " | ";
 	padding: 0px 20px;
 	font-family: 'PostGrotesk-Bold', 'montserrat';
-	color: #00133F;
+	color: #000E30;
 }
 
 .service-items-container .service-item-text[aria-expanded="true"] {
 	font-family: 'PostGrotesk-bold', 'montserrat';
-	color: #00133F;
+	color: #000E30;
 
 }
 
@@ -378,19 +368,23 @@ a:hover {
 	text-transform: uppercase;
 	cursor: pointer;
 	color: #61728E;
-	font-family: 'SharpSans-Semibold', 'montserrat';
+	font-family: 'PostGrotesk-medium', 'montserrat';
 	font-size: 14px;
 	display: inline;
+	letter-spacing: 0.15em;
 }
 
 .people-item-container .people-item:not(:last-child):after {
 	content: " + ";
 	padding: 0px 20px;
-	font-family: 'SharpSans-Semibold', 'montserrat';
+	font-family: 'PostGrotesk-bold', 'montserrat';
+	color: #000E30;
+
 }
 
 .people-item-container .people-item[aria-expanded="true"] {
-	font-family: 'SharpSans-bold', 'montserrat';
+	font-family: 'PostGrotesk-bold', 'montserrat';
+		color: #000E30;
 }
 
 .people-item-description {
