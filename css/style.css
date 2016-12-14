@@ -580,8 +580,11 @@ body {
 	border: none;
 	background-color: #FBFCFC;
 	line-height: 40px;
-	text-transform: capitalize;
 
+}
+
+input#form-name {
+		text-transform: capitalize;
 }
 
 #formrow-message {
