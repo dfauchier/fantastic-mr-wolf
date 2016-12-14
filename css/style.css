@@ -704,6 +704,16 @@
 	}
 
 
+#thankyou-message {
+	display:none;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'SharpSans-semibold',  'montserrat';
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+
+}
+
 	@media only screen and (max-width: 768px) {
 		.contact-form-container { padding: 30px 20px;}
 	}
