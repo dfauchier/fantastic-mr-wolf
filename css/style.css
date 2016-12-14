@@ -710,10 +710,13 @@
 
 
 
+<<<<<<< HEAD
 	.formrow.email-error .formlabel, .formrow.email-error input {
 		background-color: #FF4545 !important;
 		color: white;
 =======
+=======
+>>>>>>> parent of 64eb29b... form button styling
 #contact-form-container button:focus {
 	outline: 0;
 	background-color: #000E30;
