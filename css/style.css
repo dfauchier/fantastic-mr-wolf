@@ -504,11 +504,17 @@
 	/* ****** SECTION CLIENTS ***** */
 	/* **************************** */
 
+
 	.client-container {
+		width:80%;
+		margin: 0 auto;
 		text-align: justify;
 		-ms-text-justify: distribute-all-lines;
 		text-justify: distribute-all-lines;
 		padding: 50px 50px 0px 50px;
+		background-color: white;
+		margin-top: 50px;
+		/*margin-bottom: 50px;*/
 	}
 
 	.client-item {
@@ -672,7 +678,6 @@
 
 		#contact-form-container button:focus, #contact-form-container button:hover {
 		outline: 0;
-		/*background-color: #FFD600;*/
 		background-color: #000E30;
 		color: white;
 	}
