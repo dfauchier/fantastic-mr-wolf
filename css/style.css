@@ -621,18 +621,17 @@ input#form-name {
 
 }
 
-#contact-form-container button:focus {
+#contact-form-container button:focus, #contact-form-container button:hover {
 	outline: 0;
 	background-color: #000E30;
-	/*color: #000E30;*/
 	color: white;
 }
 
 
 
+
 .formrow.email-error .formlabel, .formrow.email-error input {
 	background-color: #FF4545 !important;
-	/*border: 1px solid red;*/
 	color: white;
 
 }
