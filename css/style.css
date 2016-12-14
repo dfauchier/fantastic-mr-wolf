@@ -128,7 +128,7 @@ body {
 	font-family: 'PostGrotesk-Book', 'montserrat';    
 	font-size: 150%;
 	line-height: 200%;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.05em;
 	color: #000E30;
 	/*color: green;*/
 	background-color: #fafafa; 
@@ -220,7 +220,7 @@ body {
 }
 
 #nav-contact:hover {
-	background-color: transparent;
+	background-color: #fff;
 	color: #000E30;
 	box-shadow:0px 0px 0px 2px #000E30 inset;
 	border-radius: 3px;
@@ -613,21 +613,13 @@ input#form-name {
 
 #contact-form-container button {
 	text-transform: uppercase;
-	/*background-color: #fde649;*/
-	background-color: #727A8D;
+	background-color: #fde649;
 	color: white;
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
 	border: none;
 
-}
-
-#contact-form-container button:focus {
-	outline: 0;
-	background-color: #000E30;
-	/*color: #000E30;*/
-	color: white;
 }
 
 
@@ -644,7 +636,12 @@ input#form-name {
 	background-color: #E6F1F9;
 }
 
-
+#contact-form-container button:focus {
+	outline: 0;
+	background-color: #FFD600;
+	/*color: #000E30;*/
+	color: white;
+}
 
 
 #contact-form-container .formlabel.focused-label {
