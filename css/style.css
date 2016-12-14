@@ -435,12 +435,12 @@
 	/* **************************** */
 
 	.people-item-container {
-		width: 440px;
+		width: 550px;
 		max-width: 100%;
 		margin: auto;
 		margin-top: 80px;
 		margin-bottom: 80px;
-
+		/*background-color: lightgreen;*/
 		text-align: center;
 	}
 
@@ -454,7 +454,8 @@
 
 	.people-item-container .ts-item-title {
 		display: inline-block;
-		width: 170px;
+		width: 215px;
+		/*background-color: yellow;*/
 	}
 
 	.people-item-container .ts-item-title:first-child {
