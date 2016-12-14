@@ -361,11 +361,9 @@ body {
 
 
 #approach-table-container {
-	width: 80%;
-	margin-left: 10%;
-	/*display: inline;*/
-	/*background-color: blue;*/
-	/*vertical-align: middle;*/
+	max-width: 100%;
+	width: 800px;
+	margin: auto;
 }
 
 .approach-table-content-column {
