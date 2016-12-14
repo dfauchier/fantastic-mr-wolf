@@ -81,11 +81,17 @@
 	.ts-item-title {
 		text-transform: uppercase;
 		cursor: pointer;
-		/*color: #61728E;*/
-		font-family: 'PostGrotesk-medium', 'montserrat';
-		font-size: 14px;
-		letter-spacing: 0.15em;
+		color: #61728E;
+		font-family: 'PostGrotesk-book', 'montserrat';
+		font-size: 13px;
+		letter-spacing: 0.3em;
 		display: inline;
+	}
+
+
+	.ts-item-title[aria-expanded="true"] {
+		font-family: 'PostGrotesk-bold', 'montserrat';
+		color: #000E30;
 	}
 
 
@@ -106,6 +112,10 @@
 		text-decoration: none;
 		color: #000E30;
 	}
+
+
+
+
 
 	/* **************************** */
 	/* ********** MAIN ************ */
@@ -143,6 +153,14 @@
 		background-color: #FEE834;
 		margin-bottom: 40px;
 	}
+
+		.subsection-padding {
+		min-width: 100%;
+		height: 100px;
+		display: inline-block;
+	}
+
+
 
 	/* **************************** */
 	/* ********* NAV BAR ********** */
@@ -314,10 +332,6 @@
 		width: auto
 	}
 
-	.service-items-container .ts-item-title[aria-expanded="true"] {
-		font-family: 'PostGrotesk-bold', 'montserrat';
-		color: #000E30;
-	}
 
 	.service-item {
 		position: relative;
@@ -331,15 +345,16 @@
 		cursor: pointer;
 	}
 
-	.subsection-padding {
-		min-width: 100%;
-		height: 100px;
-		display: inline-block;
+	.service-item-description {
+		width: 80%;
+		margin: 0 auto;
 	}
+
+
 
 	@media only screen and (max-width: 768px) {
 		#service-item-description-container.col-md-12 { padding: 0;}
-		.service-item-description { padding: 20px; }
+		.service-item-description { padding: 35px; width:100%; }
 		.service-items-container .service-item-text { font-size:  12px; }
 		.service-items-container .service-item-text:not(:last-child):after { padding: 0px 10px; }
 		.service-items-container .ts-item-title {	text-align: center !important; display: block; margin: auto; }
@@ -405,7 +420,9 @@
 		width: 440px;
 		max-width: 100%;
 		margin: auto;
-		margin-top: 50px;
+		margin-top: 80px;
+		margin-bottom: 80px;
+
 		text-align: center;
 	}
 
@@ -441,7 +458,8 @@
 	}
 
 	.people-item-description {
-		margin-top: 50px;
+		margin: 0 auto;
+		width: 80%;
 		color: #3A4E67;
 		text-align: justify;
 		padding: 50px;		
@@ -456,7 +474,7 @@
 
 	@media only screen and (max-width: 768px) {
 		.people-item-description-container.col-md-12 { padding: 0px;}
-		.people-item-description { padding: 20px; }
+		.people-item-description { padding: 35px; width:100%; }
 		.people-item-container .people-item { font-size:  12px; }
 		.people-item-container .people-item:not(:last-child):after { padding: 0px 10px; }
 		.people-item-container .service-item-text:not(:last-child):after { padding: 0px 10px; }
