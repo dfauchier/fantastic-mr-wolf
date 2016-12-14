@@ -302,7 +302,9 @@ body {
 	width: 600px;
 	max-width: 100%;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-bottom: 80px;
 	text-align: center;
 }
 
@@ -314,10 +316,16 @@ body {
 
 }
 
+
+.service-item-description {
+	width: 70%;
+	margin: 0 auto
+}
+
 /*.service-items-container [aria-expanded="true"] {
 
 }*/
-
+/*
 .service-item {
 	position: relative;
 	display: inline-block;
@@ -328,7 +336,7 @@ body {
 	text-align: center;
 	box-shadow: 0px 0px 4px #666666;
 	cursor: pointer;
-}
+}*/
 
 
 
@@ -344,7 +352,7 @@ body {
 
 @media only screen and (max-width: 768px) {
 	#service-item-description-container.col-md-12 { padding: 0;}
-	.service-item-description { padding: 20px; }
+	.service-item-description { padding: 35px; width:100%; }
 	.service-items-container .service-item-text { font-size:  12px; }
 	.service-items-container .service-item-text:not(:last-child):after { padding: 0px 10px; }
 }
@@ -409,7 +417,8 @@ body {
 	width: 400px;
 	max-width: 100%;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	text-align: center;
 }
 
@@ -430,7 +439,9 @@ body {
 
 
 .people-item-description {
-	margin-top: 50px;
+	margin: 0 auto;
+	/*margin-top: 50px;*/
+	width: 70%;
 	color: #3A4E67;
 	text-align: justify;
 	padding: 50px;		
@@ -445,7 +456,7 @@ body {
 
 @media only screen and (max-width: 768px) {
 	.people-item-description-container.col-md-12 { padding: 0px;}
-	.people-item-description { padding: 20px; }
+	.people-item-description { padding: 35px; width:100%; }
 	.people-item-container .people-item { font-size:  12px; }
 	.people-item-container .people-item:not(:last-child):after { padding: 0px 10px; }
 }
