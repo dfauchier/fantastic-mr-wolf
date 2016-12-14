@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 
 /* **************************** */
@@ -360,6 +358,7 @@ body {
 	max-width: 100%;
 	width: 800px;
 	margin: auto;
+	overflow: auto;
 }
 
 .approach-table-content-column {
@@ -722,4 +721,4 @@ input#form-name {
 	bottom: 0;
 	text-align: center;
 }
->>>>>>> parent of 64eb29b... form button styling
+
