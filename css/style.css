@@ -700,6 +700,7 @@
 
 	}
 
+<<<<<<< HEAD
 	#contact-form-container button:focus, #contact-form-container button:hover {
 		outline: 0;
 		background-color: #000E30;
@@ -712,6 +713,21 @@
 	.formrow.email-error .formlabel, .formrow.email-error input {
 		background-color: #FF4545 !important;
 		color: white;
+=======
+#contact-form-container button:focus {
+	outline: 0;
+	background-color: #000E30;
+	/*color: #000E30;*/
+	color: white;
+}
+
+
+
+.formrow.email-error .formlabel, .formrow.email-error input {
+	background-color: #FF4545 !important;
+	/*border: 1px solid red;*/
+	color: white;
+>>>>>>> parent of 64eb29b... form button styling
 
 	}
 
