@@ -147,6 +147,7 @@
 	.container {
 		background-color: #fafafa;	
 		margin-bottom: 150px;
+		max-width: 970px;
 	}
 
 	.col-md-12 {
