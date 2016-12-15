@@ -421,7 +421,6 @@ body {
 	max-width: 100%;
 	margin: auto;
 	margin-top: 80px;
-	margin-bottom: 80px;
 	/*background-color: lightgreen;*/
 	text-align: center;
 }
@@ -465,6 +464,7 @@ body {
 	text-align: justify;
 	padding: 50px;		
 	background-color: #fff;
+	margin-top: 80px;
 }
 
 #people-item-description-linkedin  {
@@ -488,9 +488,10 @@ body {
 
 
 .client-container {
-	padding: 30px 50px 0px 50px;
+	padding: 30px 50px;
 	max-width: 820px;
 	margin: auto;
+	overflow: auto;
 }
 
 .client-container .col-md-6 {
