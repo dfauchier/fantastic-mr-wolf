@@ -177,10 +177,6 @@ body {
 	z-index: -1
 }
 
-.navbar-collapse {
-	// background-color: #fafafa;
-}
-
 .navbar .navbar-nav {
 	margin-right: 53px;
 }
@@ -247,6 +243,13 @@ body {
 	height: 4px;
 	border-radius: 4px;
 	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-collapse { background-color: #fafafa; }
+	.navbar .bgc { opacity: 1; }
+	.navbar .navbar-nav li a { padding: 6px 0px; }
+	#nav-contact { padding: 12px 1.3em; }
 }
 
 /* **************************** */
