@@ -357,20 +357,38 @@ body {
 		transition-duration: 1s;
 	}
 
+	.item-accordion .glyphicon {
+		float: left;
+		line-height: 50px;
+		position: relative;
+		left: 20px;
+	}
+
 	.ts-item-title.item-accordion {
 		height: 50px;
 		line-height: 50px;
-		background-color: white;
-		border-top: 1px solid #000E30;
+		background-color: #D3DCE9;
+		border-top: 1px solid #fafafa;
 		text-align: center;
+		cursor: pointer;
+		color: #000E30;
+
 	}
 
 	.ts-item-title.item-accordion[aria-expanded="true"] {
-		border-bottom: 1px solid #000E30;
+		border-bottom: 1px solid #fafafa;
+	}
+
+	.ts-item-title.item-accordion[aria-expanded="true"] .glyphicon-chevron-right {
+		display: none;
+	}
+
+	.ts-item-title.item-accordion[aria-expanded="true"] .glyphicon-chevron-down {
+		display: inline-block !important;
 	}
 
 	.ts-item-title.item-accordion.last {
-		border-bottom: 1px solid #000E30;
+		border-bottom: 1px solid #fafafa;
 	}
 
 
