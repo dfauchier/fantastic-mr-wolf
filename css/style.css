@@ -29,11 +29,6 @@
 	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
 }
 
-@font-face {
-	font-family: 'SharpSans-light';
-	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
-}
-
 
 
 /* **************************** */
@@ -289,11 +284,11 @@ body {
 	overflow: hidden;
 }
 
-.body-section {
+/*.body-section {
 	margin: 0 auto;
 	overflow: auto;
 	position: relative;
-}
+}*/
 
 .anchor-point {
 	position: relative;
@@ -555,7 +550,7 @@ body {
 /* ********** CONTACT BUTTON ********* */
 /* **************************** */
 
-.contact-button { 
+/*.contact-button { 
 	color: #27273B;
 	background-color: #F7D144; 
 	border: none ; 
@@ -579,7 +574,7 @@ body {
 	background-color: #27273B; 
 	border: none ; 
 	text-decoration: none;
-} 
+} */
 
 
 
@@ -592,11 +587,13 @@ body {
 /* ******** FORM  ******* */
 /* **************************** */
 
+
 #cta {
 	text-align: center;
 	justify-content: center;
 	float: none;
 }
+
 
 #cta-button {
 	display: inline-block;
@@ -612,13 +609,13 @@ body {
 	cursor: pointer;
 }
 
+
 #cta-button:hover {
 	color: white;
 	border-color: #000E30;
 	background-color: #000E30;
 	cursor: pointer;
 }
-
 
 
 .contact-form-container {
@@ -629,6 +626,7 @@ body {
 	margin: 50px auto 0px auto;
 	max-width: 700px;
 }
+
 
 #contact-form-container .formlabel {
 	width: 100%;

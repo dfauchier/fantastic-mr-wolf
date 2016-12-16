@@ -27,9 +27,11 @@ In use: hvr-underline-from-center
 */
 
 
-
+/*
 
 /* Underline From Center */
+
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -42,6 +44,8 @@ In use: hvr-underline-from-center
   position: relative;
   overflow: hidden;
 }
+
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -58,6 +62,8 @@ In use: hvr-underline-from-center
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
+
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
