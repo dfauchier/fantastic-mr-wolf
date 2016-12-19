@@ -794,19 +794,19 @@ body {
 	.footer a {
 		text-decoration: none;
 		text-align: center;	
-		color: #61728E;
+		color: #000E30;
 		line-height: 40px;
 		overflow: visible;
 	}
 
 	#footer-content {
 		align-self: center;
-		color: #61728E;
+		color: #000E30;
 	}
 
 	#footer-content a:hover {
 		align-self: center;
-		color: #000E30;
+		color: #61728E;
 	}
 
 	#icon-heart {
