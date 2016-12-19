@@ -198,6 +198,7 @@ body {
 		text-align: right;
 		margin: 6px 15px;
 	}
+	.navbar .collapse { box-shadow: rgb(236, 236, 236) 0px 2px 0px; }
 }
 
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus {
