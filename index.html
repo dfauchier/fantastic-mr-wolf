@@ -93,7 +93,7 @@
 				<div id="cover-page"> <!-- cover-page  -->
 					<div class="strapline-container">
 						<div id="strapline-h1">
-							<p class="ts-h1">Mr Wolf is a small team focussed on</br>sustainable growth for venture-backed startups.</p>
+							<p class="ts-h1">Mr Wolf is a small team focussed on<br class="hidden-xs"> sustainable growth for venture-backed startups.</p>
 						</div>
 						<div id="strapline-h2">
 							<p class="ts-h2">We solve for scale by helping you build the products people want.</p>
@@ -422,7 +422,7 @@
 			<div id="footer-content">
 				<a href="https://blog.fantasticmrwolf.com/" target="_blank">Blog</a><span>&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
 				<a id="hiring-link" href="http://angel.co/earlybird-group/jobs"><span id="icon-heart" target="_blank">❤</span> We're hiring!</a><span>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
-				<a href="mailto:mailto:david@fantasticmrwolf.com">Contact</a>
+				<a id="footer-contact" href="#contact-a">Contact</a>
 				<!-- <p style="opacity:.5">© 2015–2016 Earlybird Group Ltd.</p> -->
 				<p style="opacity:.5">56 Shoreditch High St, London E1 6JJ</p>
 			</div>
@@ -482,6 +482,7 @@
 	<script type="text/javascript">
 		$(function() {
 			$("#nav-contact").click(function() { $("#contact-form-container").collapse('show'); });
+			$("#footer-contact").click(function() { $("#contact-form-container").collapse('show'); });
 		});
 	</script>
 
