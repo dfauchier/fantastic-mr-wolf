@@ -464,7 +464,7 @@ body {
 	/* **************************** */
 
 	.people-item-container {
-		width: 550px;
+		width: 850px;
 		max-width: 100%;
 		margin: auto;
 		margin-top: 80px;
@@ -482,7 +482,7 @@ body {
 
 	.people-item-container .ts-item-title {
 		display: inline-block;
-		width: 215px;
+		width: 190px;
 		/*background-color: yellow;*/
 	}
 
