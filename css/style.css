@@ -483,15 +483,15 @@ body {
 	.people-item-container .ts-item-title {
 		display: inline-block;
 		width: 190px;
-		/*background-color: yellow;*/
+		background-color: yellow;
 	}
 
 	.people-item-container .ts-item-title:first-child {
-		text-align: right;
+		text-align: middle;
 	}
 
 	.people-item-container .ts-item-title:last-child {
-		text-align: left;
+		text-align: middle;
 	}
 
 	.people-item-container .ts-item-title.separator {
