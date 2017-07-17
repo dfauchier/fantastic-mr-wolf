@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>client-logo-appear-coolgrey3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="client-logo-appear-coolgrey3">
+            <g id="Group-2" transform="translate(1.000000, 37.000000)">
+                <text id="appear.in" font-family="JosefinSans-Bold, Josefin Sans" font-size="17.12" font-weight="bold" fill="#B6C1D1">
+                    <tspan x="35.483871" y="16">appear.in</tspan>
+                </text>
+                <g id="Group" transform="translate(0.000000, 1.080000)">
+                    <rect id="Rectangle-11" fill="#61728E" x="2.15053763" y="3.24" width="21.5053763" height="15.12" rx="2.14"></rect>
+                    <rect id="Rectangle" fill="#FF2960" x="2.15053763" y="8.64" width="16.1290323" height="9.72"></rect>
+                    <path d="M0,7.53425804 C0,6.35553987 0.951807666,5.4 2.14063993,5.4 L19.3647364,5.4 C20.5469792,5.4 21.5053763,6.35729433 21.5053763,7.53425804 L21.5053763,18.385742 C21.5053763,19.5644601 20.5560066,20.52 19.3742099,20.52 L14.4659395,20.52 L14.4659395,24.8745456 L7.27779485,20.52 L2.14421542,20.52 C0.959997944,20.52 0,19.5627057 0,18.385742 L0,7.53425804 Z" id="Rectangle-3" fill="#B6C1D1"></path>
+                    <path d="M25.8064516,6.8775239 C25.8064516,6.57994192 25.9848152,6.18924712 26.2163347,5.99524899 L29.0945962,3.58345507 C29.3209684,3.39377007 29.5044793,3.48511133 29.5044793,3.77714637 L29.5044793,18.3074745 C29.5044793,18.6041322 29.3160095,18.6921797 29.0945962,18.5130928 L26.2163347,16.1850517 C25.9899625,16.0019538 25.8064516,15.6183245 25.8064516,15.3147038 L25.8064516,6.8775239 Z" id="Rectangle-2" fill="#61728E"></path>
+                    <text id="a" font-family="JosefinSans-Bold, Josefin Sans" font-size="17.12" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="6.4516129" y="16">a</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
