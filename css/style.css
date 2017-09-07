@@ -15,20 +15,19 @@
 }
 
 @font-face {
-	font-family: 'SharpSans-Semibold';
+	font-family: 'SharpSans-semibold';
 	src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 }
 
 @font-face {
 	font-family: 'SharpSans-bold';
-	src: url('../fonts/sharp-sans/SharpSansNo1-bold.otf');
+	src: url('../fonts/sharp-sans/SharpSansNo1-Bold.otf');
 }
 
 @font-face {
-	font-family: 'SharpSans-medium';
+	font-family: 'SharpSans-light';
 	src: url('../fonts/sharp-sans/SharpSansNo1-Light.otf');
 }
-
 
 
 /* **************************** */
@@ -59,8 +58,8 @@ h1, h2, h3 { margin: 0 0 10px 0; }
 .ts-h2 {
 	font-size: 1em;
 	line-height: 145%;
-	font-family: 'SharpSans-medium',  'montserrat';
-	letter-spacing: 0.15em;
+	font-family:  'montserrat';
+	letter-spacing: 0.20em;
 	color: #61728E;
 }
 
